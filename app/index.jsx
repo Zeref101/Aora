@@ -10,9 +10,9 @@ NativeWindStyleSheet.setOutput({
 export default function App() {
   return (
     <View className="flex-1 items-center justify-center bg-white">
-      <Text className=" font-bold">
-        Open up App.js to start working on your app!
-      </Text>
+      <Link href={"/home"} style={{ fontFamily: "Poppins-Bold" }}>
+        Go to Home
+      </Link>
       <StatusBar style="auto" />
     </View>
   );
