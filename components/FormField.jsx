@@ -16,11 +16,11 @@ const FormField = ({
   const [showPassword, setShowPassword] = useState(false);
   const [isFocused, setIsFocused] = useState(false);
   return (
-    <View className={` space-y-2 ${otherStyles}`}>
+    <View className={` space-y-2 ${otherStyles} `}>
       <Text className=" text-base text-gray-100 font-pmedium">{title}</Text>
       <View
         style={[isFocused ? styles.focused : styles.unfocused]}
-        className={`w-full h-16 px-4 bg-black-100 border-indigo-50  rounded-2xl  flex-row items-center`}
+        className={`w-full h-16 px-4 bg-black-100 border border-indigo-50  rounded-2xl  flex-row items-center`}
       >
         <TextInput
           className=" flex-1 text-white font-psemibold text-base"
